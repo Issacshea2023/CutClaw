@@ -84,7 +84,7 @@ Extracts musical beats and energy signals to build rhythm-aware cuts that perfec
 ---
 
 
-## 🖼️ Gallery
+## 🖼️ Gallery（remember to turn on the audio）
 
 <table width="100%">
 <tr>
