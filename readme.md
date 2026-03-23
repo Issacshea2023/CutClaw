@@ -2,7 +2,7 @@
 
 <img src="asset/teaser.png" alt="CutClaw teaser" width="50%" />
 
-## Agentic Hours-Long Video Editing via Music Synchronization
+## 🦞CutClaw: Agentic Hours-Long Video Editing via Music Synchronization
 
 **🎬 Your personal editor for turning hours of footage into cinematic montages.**
 
