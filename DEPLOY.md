@@ -71,4 +71,4 @@ pip install -r requirements_api.txt
 uvicorn cutclaw_api:app --reload
 ```
 
-访问 http://localhost:8000/docs 查看 API 文档
+访问 http://localhost:8000/docs 查看 API 文档# Trigger redeploy
