@@ -1,6 +1,6 @@
 # Core pipeline
 numpy
-torch==2.9.0
+torch>=2.9.0
 decord==0.6.0
 scenedetect==0.6.7.1
 av
@@ -16,29 +16,28 @@ opencv-python-headless
 soundfile
 scipy
 audioread
-madmom
-aubio
+# madmom  # 暂时注释，否则编译失败
+# aubio   # 同样编译问题，注释
+
 python-dotenv
 tenacity
 
-# Web / interactive apps
+# Web
 streamlit
 gradio
 
-# ASR backends
-pywhispercpp
-pyannote.audio
+# ASR
+# pywhispercpp
+# pyannote.audio
 
-# Utility modules used by optional helpers under src/utils and src/audio
 requests
 packaging
 torchvision
 qwen-omni-utils
 
-# Optional backends / visualization helpers kept in the repo
 einops
 ffmpeg-python
 matplotlib
 
-# External system dependency:
-# ffmpeg must be installed and available in PATH.
+# 关键修复：加上 Cython
+Cython>=3.0.0
